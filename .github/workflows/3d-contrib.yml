@@ -12,16 +12,18 @@ jobs:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_3D }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit changes
         run: |
-          git config --local user.name '${{ github.repository_owner }}'
-          git config --local user.email '${{ github.repository_owner }}@users.noreply.github.com'
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.PAT_3D }}@github.com/${{ github.repository }}
           git add -A .
-          git commit -m "feat: updated profile contrib status"
+          git commit -m "Update 3D graph" || echo "No changes"
           git push
