@@ -47,11 +47,6 @@ Passionate about building mobile and cloud-native solutions. I specialize in bac
 ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
-## 📚 Certifications
-- Machine Learning for Industry - FABRICUM, PUCP (2025)
-- Power BI for Management - PUCP (2023)
-- English as a Foreign Language - B2 CEFR (2024)
-
 ## 📫 Let's Connect!
 - 📧 Email: loammi.jezreel@gmail.com
 - 📞 Phone: +51 970 149 453
