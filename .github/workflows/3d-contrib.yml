@@ -1,11 +1,14 @@
 name: Update 3D Contributions
+
 on:
   schedule:
     - cron: "0 12 * * *" 
   workflow_dispatch:       # Permite ejecución manual
+
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
