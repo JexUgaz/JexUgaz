@@ -13,8 +13,12 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 365
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
+          INCLUDE_FORKS: "true"
+          INCLUDE_PRIVATE: "true" 
           GITHUB_TOKEN: ${{ secrets.PAT_3D }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit changes
