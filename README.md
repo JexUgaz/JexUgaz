@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.png" alt="Banner" width="100%" />
+  <img src="assets/banner.png" alt="Banner" width="100%" />
 </p>
 <h3 align="center">Full Stack Developer | Cloud Architect | Telecommunications Engineer</h3>
 
