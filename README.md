@@ -1,4 +1,6 @@
-<h1 align="center">🧑‍💻 Jex Ugaz</h1>
+<p align="center">
+  <img src="assets/banner.png" alt="Banner" width="100%" />
+</p>
 <h3 align="center">Full Stack Developer | Cloud Architect | Telecommunications Engineer</h3>
 
 <p align="center">
